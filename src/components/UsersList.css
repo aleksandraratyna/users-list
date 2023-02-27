@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;600&display=swap');
+
+body {
+    background-color: #efede6;
+}
+
+.header {
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 600;
+    margin: 50px auto;
+}
+
+.userContainer {
+    max-width: 500px;
+    margin: 0 auto;
+    border: 2px dotted #d3d3d3;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    background-color: #dedcd9;
+
+}
+
+.avatarContainer {
+    margin: 10px;
+}
+
+.avatar {
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 50%;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5)
+
+}
+
+.dataContainer {
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: normal;
+    justify-content: center;
+    align-items: flex-start;
+    font-family: 'Libre Franklin', sans-serif;
+    text-align: left;
+}
+
+.name {
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.userName {
+    color: #0b98ec;
+}
